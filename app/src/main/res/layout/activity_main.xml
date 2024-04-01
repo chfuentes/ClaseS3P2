@@ -68,9 +68,8 @@
             android:id="@+id/btCrear"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="16dp"
-            android:background="@drawable/sh_botones"
+
+            android:style="@style/temaBotones"
             android:text="Crear Cuenta">
 
         </Button>
@@ -83,9 +82,6 @@
             android:text="Olvidaste tu contraseña?"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="bold">
-
-        </TextView>
-
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
