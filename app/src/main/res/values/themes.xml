@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.ClaseS3P2" parent="Theme.AppCompat">
+    <style name="Base.Theme.ClaseS3P2" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
@@ -10,9 +10,29 @@
         <item name="android:background">@drawable/sh_botones</item>
         <item name="android:layout_margin">16dp</item>
         <item name="android:layout_gravity">center</item>
-
-
     </style>
 
+    <style name="temaEditText">
+        <item name="android:background">@drawable/sh_edittext</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
 
+    <style name="temaTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="temaMenuImageView">
+        <item name="android:padding">32dp</item>
+        <item name="android:tint">@color/white</item>
+        <item name="android:tintMode">src_in</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
 </resources>

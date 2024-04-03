@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fondoControles">#00A7E7</color>
+    <color name="fondoFondo">#9000A7E7</color>
     <color name="fondoBotones">#FFEB3B</color>
     <color name="fondoBotones2">#37336B</color>
 </resources>
